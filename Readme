@@ -1,1 +1,6 @@
+RMI Calculator
 
+This project is a calculator application built using Java RMI (Remote Method Invocation).
+It allows a client program to call arithmetic methods on a remote server object as if they were local.
+
+The calculator runs on the server side, while the client connects through the RMI registry and invokes the calculator operations remotely. This project demonstrates basic client–server communication using Java RMI and multiple JVMs.
